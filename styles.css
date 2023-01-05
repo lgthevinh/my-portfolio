@@ -42,7 +42,6 @@ header p{
 .nav-btn{
     display: none;
     cursor: pointer;
-    position: inherit;
     height: 1.5rem;
     aspect-ratio: 1/1;
     transition: 0.3s;
@@ -93,12 +92,11 @@ header p{
 }
 @media (max-width:800px) {
     header{
+        width: 100vw;
         position: fixed;
         flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-    }
-    header p{
-        margin-right: 64vw;
     }
     .nav-bar{
         display: flex;
@@ -138,7 +136,6 @@ header p{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-left: 80vw;
     }
 }
 @media (min-width:801px) {
