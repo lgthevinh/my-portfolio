@@ -8,6 +8,7 @@
 }
 *{
     font-family: 'Anybody', sans-serif, 'Segoe UI', Tahoma, Verdana;
+    box-sizing: border-box;
 }
 body{
     margin: 0;
