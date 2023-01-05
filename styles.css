@@ -96,8 +96,8 @@ header p{
         flex-direction: row;
         align-items: center;
     }
-    header P{
-        margin-right: 60vw;
+    header p{
+        margin-right: 64vw;
     }
     .nav-bar{
         display: flex;
