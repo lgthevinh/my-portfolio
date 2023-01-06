@@ -54,46 +54,56 @@ header p{
     height: 10%;
     background-color: #000000;
 }
-@media (min-width:320px){
-    html{font-size: 11px;}
+.profile{
+    display: flex;
+    margin-top: 3em;
+    width: 100%;
+    height: fit-content;
 }
-@media (min-width:480px){
-    html{font-size: 16px;}
+.info-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-@media (min-width:600px){
-    html{font-size: 18px;}
+.profile-img{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
 }
+.info{
+    margin-top: 1.2em;
+}
+.name{
+    text-align: center;
+    font-weight: 600;
+    color: var(--light-blue);
+}
+.spliter{
+    background-color: var(--light-blue);
+}
+.bio h2{
+    color: var(--light-blue);
+}
+@media (min-width:320px){html{font-size: 11px;}}
+@media (min-width:480px){html{font-size: 16px;}}
+@media (min-width:600px){html{font-size: 18px;}}
 @media (min-width:801px){
     html{font-size: 16px;}
-    .nav-bar{
-        margin-left: 40%;
-    }
-    .nav-bar ul li{
-        padding-inline-end: 15%;
-    }
+    .nav-bar{margin-left: 40%;}
+    .nav-bar ul li{padding-inline-end: 15%;}
 }
 @media (min-width:1025px){
     html{font-size: 18px;}
-    .nav-bar{
-        margin-left: 40%;
-    }
-    .nav-bar ul li{
-        padding-inline-end: 15%;
-    }
+    .nav-bar{margin-left: 40%;}
+    .nav-bar ul li{padding-inline-end: 15%;}
 }
 @media (min-width:1281px){
     html{font-size: 20px;}
-    .nav-bar{
-        margin-left: 50%;
-    }
-    .nav-bar ul li{
-        padding-inline-end: 15%;
-    }
+    .nav-bar{margin-left: 50%;}
+    .nav-bar ul li{padding-inline-end: 15%;}
 }
 @media (max-width:800px) {
     header{
         width: 100vw;
-        position: fixed;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
@@ -128,14 +138,25 @@ header p{
         opacity: 0;
         transition: 0.18s;
     }
-    .nav-bar ul li a{
-        font-size: 1.4rem;
-    }
+    .nav-bar ul li a{font-size: 1.4rem;}
     .nav-btn{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    }
+    .profile{flex-direction: column;}
+    .profile-img{width: 15em;}
+    .info p{font-size: 1.2em;}
+    .name{font-size: 1.7em;}
+    .spliter{
+        margin: 0 auto;
+        width: 80%;
+        height: 0.12em;
+    }
+    .bio{
+        margin: 0 auto;
+        margin-top: 3rem;
     }
 }
 @media (min-width:801px) {
@@ -145,15 +166,36 @@ header p{
         align-self: center;
         height: 100%;
     }
-    
     .nav-bar ul{
         display: flex;
         justify-content: center;
     }
-    
     .nav-bar ul li{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .profile{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-part{
+        padding: 0 2em;
+        border-right: 0.2em solid var(--light-blue)
+    }
+    .profile-img{width: 10em;}
+    .info p{
+        font-size: 0.8em;
+    }
+    .name{font-size: 1.3em;}
+    .spliter{
+        display: none;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .bio{
+        margin-left: 3em;
     }
 }
