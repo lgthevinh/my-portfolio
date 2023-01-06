@@ -9,6 +9,7 @@
 *{
     font-family: 'Anybody', sans-serif, 'Segoe UI', Tahoma, Verdana;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     margin: 0;
@@ -85,7 +86,7 @@ header p{font-size: 1.5rem;}
     .nav-bar{margin-left: 50%;}
     .nav-bar ul li{padding-inline-end: 15%;}
 }
-@media (max-width:800px) {
+@media (max-width:800px){
     header{
         width: 100vw;
         flex-direction: row;
