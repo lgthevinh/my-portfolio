@@ -10,6 +10,7 @@
     font-family: 'Montserrat', sans-serif, 'Anybody';
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
 }
 * , *:before, *:after{ 
     box-sizing:border-box; 
