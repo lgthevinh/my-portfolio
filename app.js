@@ -3,3 +3,14 @@ navButton.onclick = function() {
     navBar = document.querySelector(".nav-bar");
     navBar.classList.toggle("active");
 }
+
+//debug
+var docWidth = document.documentElement.offsetWidth;
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
