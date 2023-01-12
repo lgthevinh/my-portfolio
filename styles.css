@@ -61,6 +61,7 @@ main{width: 100%;}
 .container{
     width: 81vw;
     margin: 0 auto;
+    max-width: 1800px;
 }
 .profile{
     display: flex;
@@ -108,21 +109,41 @@ i:hover{color: var(--light-blue);}
 .blue-bg{
     width: 100%;
     height: fit-content;
-    background-color: var(--light-blue);
     padding: 1em 0;
     margin: 2.2em 0;
+    background:rgba(0, 0, 0, 0.3) url(./images/IMG_3849.JPG);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: none;
+    background-blend-mode: darken;
+}
+.head-section{
+    font-size: 2.1em;
+    text-align: center;
 }
 .about-me h1, .about-me p{
     color: var(--white);
     opacity: 85%;
 }
-.about-me h1{
-    font-size: 2.1em;
-    text-align: center;
+.about-me p{
+    font-size: 1.5em;
+    text-align: justify;
 }
-.about-me p{font-size: 1em;}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .me-bio a{color: var(--white);}
 .me-bio a:hover{color: #f1f1f193}
+.certificates{
+    display: grid;
+}
+.certificate{
+    display: flex;
+    flex-direction: column;
+}
 @media (min-width:320px){html{font-size: 11px;}}
 @media (min-width:480px){html{font-size: 13px;}}
 @media (min-width:600px){html{font-size: 17px;}}
