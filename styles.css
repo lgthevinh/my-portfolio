@@ -137,10 +137,10 @@ i:hover{color: var(--light-blue);}
 }
 .me-bio a{color: var(--white);}
 .me-bio a:hover{color: #f1f1f193}
-.certificates{
+.projects{
     display: grid;
 }
-.certificate{
+.project{
     display: flex;
     flex-direction: column;
 }
