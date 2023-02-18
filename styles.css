@@ -185,7 +185,7 @@ i:hover{color: var(--light-blue);}
     border-radius: inherit;
 }
 .project-label{
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
     font-weight: 500;
 }
