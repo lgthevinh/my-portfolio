@@ -221,11 +221,12 @@ i:hover{color: var(--light-blue);}
 }
 .footer-icon i{
     color: var(--white);
+    font-size: 2.8em;
 }
 .icon-text{
     margin-left: 0.4em;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.32em;
 }
 
 @media (min-width:320px){html{font-size: 11px;}}
