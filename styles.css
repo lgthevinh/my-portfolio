@@ -42,7 +42,10 @@ header a{
 }
 header p{font-size: 1.5rem;}
 .nav-bar ul li{list-style: none;}
-.nav-bar ul li a{transition: 0.3s;}
+.nav-bar ul li a{
+    transition: 0.3s;
+    font-weight: 430;
+}
 .nav-bar ul li a:hover{color: var(--light-blue);}
 .nav-btn{
     display: none;
@@ -78,6 +81,10 @@ main{width: 100%;}
     border-radius: 50%;
 }
 .info{margin-top: 1.2em;}
+.info.other{
+    font-weight: 450;
+    font-size: 1em;
+}
 .name{
     text-align: center;
     font-weight: 800;
@@ -135,15 +142,92 @@ i:hover{color: var(--light-blue);}
     justify-content: space-around;
     align-items: center;
 }
-.me-bio a{color: var(--white);}
+.me-bio p{
+    font-size: 1.2em;
+    margin: 1em auto;
+    width: 80%;
+    max-width: 800px;
+    font-weight: 500;
+}
+.me-bio a{
+    color: var(--white);
+    transition: 0.3s;
+}
 .me-bio a:hover{color: #f1f1f193}
-.projects{
-    display: grid;
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1em auto;
 }
 .project{
-    display: flex;
-    flex-direction: column;
+    aspect-ratio: 1/1.2;
+    width: 7em;
+    height: auto;
+    min-width: 250px;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+.project:hover{
+    transform: translate(0, -0.5em);
+}
+.project-img{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: solid 3px rgba(3, 102, 214, 0.3);
+    border-radius: inherit;
+}
+.project-label{
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 500;
+}
+.address-main{
+    background-color: #404258;
+}
+.container.address{
+    padding: 2em 0;
+}
+.address.brand{
+    width: 14em;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.footer-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.3s;
+}
+.footer-icon:hover{
+    transform: translate(0, -0.3em);
+}
+.footer-icon i{
+    color: var(--white);
+}
+.icon-text{
+    margin-left: 0.4em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
 @media (min-width:320px){html{font-size: 11px;}}
 @media (min-width:480px){html{font-size: 13px;}}
 @media (min-width:600px){html{font-size: 17px;}}
@@ -221,6 +305,9 @@ i:hover{color: var(--light-blue);}
     .contacts{margin-top: 2em;}
     i{font-size: 4em;}
     .about-me p{font-size: 1.2em;}
+    .projects-container{
+        flex-direction: column;
+    }
 }
 @media (min-width:801px) {
     .nav-bar{

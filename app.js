@@ -4,6 +4,10 @@ navButton.onclick = function() {
     navBar.classList.toggle("active");
 }
 
+function toProjectSource(url) {
+    window.location.href = url;
+}
+
 //debug
 var docWidth = document.documentElement.offsetWidth;
 [].forEach.call(
