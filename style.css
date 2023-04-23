@@ -36,7 +36,7 @@ html, body{
     height: 100vh;
 }
 .hero h1{
-    font-size: 3.2em;
+    font-size: 3em;
     font-weight: 800;
     width: fit-content;
 }
@@ -121,7 +121,7 @@ html, body{
 }
 @media screen and (max-width: 992px){
     html, body{
-        font-size: 13px;
+        font-size: 15px;
     }
     .hero h1, .hero h2, .hero p{
         margin: 0 auto;
