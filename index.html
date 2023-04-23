@@ -1,92 +1,134 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
-    </head>
-    <body>
-        <header>
-            <a href="#profile"><p>lgthevinh</p></a>
-            <div class="nav-btn">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <section class="hero bg-dark position-relative" id="hero">
+        <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="position-absolute top-0 object-fit-cover w-100 h-100">
+        <div class="position-absolute top-0 object-fit-cover w-100 h-100 bg-dark" style="opacity: 80%;"></div>
+        <div class="container row h-100 d-flex flex-row align-content-center justify-content-center position-relative">
+            <div class="col-12 col-lg-6 order-last order-lg-first align-self-center">
+                <h1 class="main-text-gradient">Luong The Vinh</h1>
+                <p class="space-none">(Matthew Luong)</p>
+                <h2 class="">I'm <span class="main-text-gradient">Software Engineer</span></h2>
+                <ul class="list-unstyled list d-flex flex-row pt-1 mx-auto mx-lg-0" style="width: fit-content">
+                    <li class="pe-4"><a href="" class=""><i class="bi bi-twitter"></i></a></li>
+                    <li class="px-4"><a href="" class=""><i class="bi bi-facebook"></i></a></li>
+                    <li class="px-4"><a href="" class=""><i class="bi bi-github"></i></a></li>
+                    <li class="ps-4"><a href="" class=""><i class="bi bi-linkedin"></i></a></li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="#profile" class="profile container">
-                <div class="info-part">
-                    <div><img src="https://avatars.githubusercontent.com/u/107859471?v=4" alt="profile-img" class="profile-img"></div>
-                    <div class="info">
-                        <h2 name="name" id="name" class="name">Luong The Vinh</h2>
-                        <p name="dob" id="dob" class="info other">Date of birth: August, 3rd 2005</p>
-                        <p name="current-job" id="current-job" class="info other">Current job: Freelancer</p>
-                        <p name="current-education" id="current-education" class="info other">Current education: Highschool student</p>
-                    </div>
-                </div>
-                <div class="spliter"></div>
-                <div class="bio">
-                    <h2>Hey there. I'm Luong The Vinh</h2>
-                    <p>I'm currently a student, IoT and web developer!</p>
-                    <div class="contacts">
-                        <a href="https://github.com/lgthevinh" class="icon"><i class="uil uil-github"></i></a>
-                        <a href="https://www.facebook.com/vinh.luongthe.14811" class="icon"><i class="uil uil-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/vinh-luong-the-511a2b252" class="icon"><i class="uil uil-linkedin"></i></a>
-                    </div>
-                </div>
-            </section>
-            <div class="blue-bg">
-                <section id="about-me" class="about-me container">
-                    <h1 class="head-section">About me</h1>
-                    <div class="content">
-                        <div id="me-img" class="me-img"></div>
-                        <div class="me-bio container">
-                            <p>I'm mainly a web developer with 5-month working with HTML, CSS and Javascript. I have also been working with Python and Flask for 1 year and 2 months, respectively. I'm buildiing website for personal needed and small business.</p>
-                            <p>My career goal is to become a Software and AI Engineer, so I'm really determined on learning code.</p>
-                            <p>I sincerely believe that the key to success is all about passionate and determine.</p>
-                            <p>Reach out to <a href="mailto: everwellmax@gmail.com">everwellmax@gmail.com</a> to connect.</p>
-                        </div>
-                    </div>
-                </section>
             </div>
-            <div>
-                <section id="projects" class="container" style="padding-bottom: 2em;">
-                    <h1 class="head-section">My Projects</h1>
-                    <div class="projects-container">
-                        <div class="project" onClick="toProjectSource('https://github.com/Techco-org')">
-                            <img class="project-img" src="/images/logo-color-techco.png">
-                            <p class="project-label">Techco-org (GitHub)</p>
-                        </div>
-                        <div class="project">
-                            <img class="project-img" src="/images/logo-color-clas.png" onClick="toProjectSource('http://zzata1133.pythonanywhere.com/')">
-                            <p class="project-label">Clas (Website)</p>
+            <div class="col-8 col-lg-6 col-sm-8 order-1 order-first order-lg-last position-relative py-3 py-lg-0">
+                <div class="hero-image position-relative w-75 d-block m-auto">
+                    <div class="hero_graphics w-100 h-100">
+                        <div class="hero_graphic-1"></div>
+                        <div class="hero_graphic-2"></div>
+                        <div class="hero_graphic-3">
+                            <img src="./image/hero-image.png" alt="" class="hero_image_graphic">
                         </div>
                     </div>
-                </section>
-            </div>
-        </main>
-        <footer id="contacts" class="address-main">
-            <section class="container address">
-                <div class="address brand">
-                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="2000" height="434" viewBox="0 0 2000 434"><g transform="matrix(1,0,0,1,-1.2121211995988688,-0.004421082724491043)"><svg viewBox="0 0 396 86" data-background-color="#ffffff" preserveAspectRatio="xMidYMid meet" height="434" width="2000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="tight-bounds" transform="matrix(1,0,0,1,0.24000000247946218,0.0008760670836522877)"><svg viewBox="0 0 395.52 85.99824786583271" height="85.99824786583271" width="395.52"><g><svg viewBox="0 0 530.5950851582844 115.36773778781037" height="85.99824786583271" width="395.52"><g transform="matrix(1,0,0,1,0,15.944455801354401)"><svg viewBox="0 0 395.52 83.47882618510157" height="83.47882618510157" width="395.52"><g><svg viewBox="0 0 395.52 83.47882618510157" height="83.47882618510157" width="395.52"><g><svg viewBox="0 0 395.52 83.47882618510157" height="83.47882618510157" width="395.52"><g transform="matrix(1,0,0,1,0,0)"><svg width="395.52" viewBox="0.20000000298023224 -37.099998474121094 177.19000244140625 37.39999771118164" height="83.47882618510157" data-palette-color="#2257bf"><path d="M12.2 0L12.2-30.65 0.2-30.65 0.2-35 29.15-35 29.15-30.65 17.15-30.65 17.15 0 12.2 0ZM55.1-13.1Q55.1-12.55 55-11.65L55-11.65 33.5-11.65Q33.95-8.15 36.57-6.03 39.2-3.9 43.1-3.9L43.1-3.9Q47.85-3.9 50.75-7.1L50.75-7.1 53.4-4Q51.6-1.9 48.92-0.8 46.25 0.3 42.95 0.3L42.95 0.3Q38.75 0.3 35.5-1.43 32.25-3.15 30.47-6.25 28.7-9.35 28.7-13.25L28.7-13.25Q28.7-17.1 30.42-20.2 32.15-23.3 35.17-25.03 38.2-26.75 42-26.75L42-26.75Q45.8-26.75 48.77-25.03 51.75-23.3 53.42-20.2 55.1-17.1 55.1-13.1L55.1-13.1ZM42-22.7Q38.55-22.7 36.22-20.6 33.9-18.5 33.5-15.1L33.5-15.1 50.5-15.1Q50.1-18.45 47.77-20.58 45.45-22.7 42-22.7L42-22.7ZM73.3 0.3Q69.25 0.3 66.07-1.45 62.9-3.2 61.1-6.28 59.3-9.35 59.3-13.25L59.3-13.25Q59.3-17.15 61.1-20.23 62.9-23.3 66.07-25.03 69.25-26.75 73.3-26.75L73.3-26.75Q76.9-26.75 79.72-25.3 82.55-23.85 84.1-21.1L84.1-21.1 80.45-18.75Q79.2-20.65 77.35-21.6 75.5-22.55 73.25-22.55L73.25-22.55Q70.65-22.55 68.57-21.4 66.5-20.25 65.32-18.13 64.15-16 64.15-13.25L64.15-13.25Q64.15-10.45 65.32-8.33 66.5-6.2 68.57-5.05 70.65-3.9 73.25-3.9L73.25-3.9Q75.5-3.9 77.35-4.85 79.2-5.8 80.45-7.7L80.45-7.7 84.1-5.4Q82.55-2.65 79.72-1.18 76.9 0.3 73.3 0.3L73.3 0.3ZM104.09-26.75Q109.14-26.75 112.12-23.83 115.09-20.9 115.09-15.25L115.09-15.25 115.09 0 110.29 0 110.29-14.7Q110.29-18.55 108.44-20.5 106.59-22.45 103.14-22.45L103.14-22.45Q99.24-22.45 96.99-20.18 94.74-17.9 94.74-13.65L94.74-13.65 94.74 0 89.94 0 89.94-37.1 94.74-37.1 94.74-22.75Q96.24-24.65 98.67-25.7 101.09-26.75 104.09-26.75L104.09-26.75ZM135.69 0.3Q131.64 0.3 128.47-1.45 125.29-3.2 123.49-6.28 121.69-9.35 121.69-13.25L121.69-13.25Q121.69-17.15 123.49-20.23 125.29-23.3 128.47-25.03 131.64-26.75 135.69-26.75L135.69-26.75Q139.29-26.75 142.12-25.3 144.94-23.85 146.49-21.1L146.49-21.1 142.84-18.75Q141.59-20.65 139.74-21.6 137.89-22.55 135.64-22.55L135.64-22.55Q133.04-22.55 130.97-21.4 128.89-20.25 127.72-18.13 126.54-16 126.54-13.25L126.54-13.25Q126.54-10.45 127.72-8.33 128.89-6.2 130.97-5.05 133.04-3.9 135.64-3.9L135.64-3.9Q137.89-3.9 139.74-4.85 141.59-5.8 142.84-7.7L142.84-7.7 146.49-5.4Q144.94-2.65 142.12-1.18 139.29 0.3 135.69 0.3L135.69 0.3ZM163.64 0.3Q159.69 0.3 156.54-1.45 153.39-3.2 151.61-6.28 149.84-9.35 149.84-13.25L149.84-13.25Q149.84-17.15 151.61-20.23 153.39-23.3 156.54-25.03 159.69-26.75 163.64-26.75L163.64-26.75Q167.59-26.75 170.71-25.03 173.84-23.3 175.61-20.23 177.39-17.15 177.39-13.25L177.39-13.25Q177.39-9.35 175.61-6.28 173.84-3.2 170.71-1.45 167.59 0.3 163.64 0.3L163.64 0.3ZM163.64-3.9Q166.19-3.9 168.21-5.08 170.24-6.25 171.39-8.38 172.54-10.5 172.54-13.25L172.54-13.25Q172.54-16 171.39-18.13 170.24-20.25 168.21-21.4 166.19-22.55 163.64-22.55L163.64-22.55Q161.09-22.55 159.06-21.4 157.04-20.25 155.86-18.13 154.69-16 154.69-13.25L154.69-13.25Q154.69-10.5 155.86-8.38 157.04-6.25 159.06-5.08 161.09-3.9 163.64-3.9L163.64-3.9Z" opacity="1" transform="matrix(1,0,0,1,0,0)" fill="#ffffff" class="undefined-text-0" data-fill-palette-color="primary" id="text-0"></path></svg></g></svg></g></svg></g></svg></g><g transform="matrix(1,0,0,1,415.22734737047404,0)"><svg viewBox="0 0 115.36773778781037 115.36773778781037" height="115.36773778781037" width="115.36773778781037"><g data-palette-color="#2257bf"><rect width="31.53384832866817" height="115.36773778781037" fill="#ffffff" stroke="transparent" data-fill-palette-color="accent" x="0" fill-opacity="1"></rect><rect width="31.53384832866817" height="115.36773778781037" fill="#ffffff" stroke="transparent" data-fill-palette-color="accent" x="38.455912595936795" fill-opacity="0.75"></rect><rect width="31.53384832866817" height="115.36773778781037" fill="#ffffff" stroke="transparent" data-fill-palette-color="accent" x="76.91182519187359" fill-opacity="0.5"></rect></g></svg></g></svg></g><defs></defs></svg><rect width="395.52" height="85.99824786583271" fill="none" stroke="none" visibility="hidden"></rect></g></svg></g></svg>                </div>
-                <div class="footer-media">
-                    <a href="https://github.com/Techco-org" class="footer-icon"><i class="uil uil-github"></i> <span class="icon-text">GitHub</span></a>
-                    <a href="https://www.linkedin.com/in/vinh-luong-the-511a2b252/" class="footer-icon"><i class="uil uil-linkedin"></i> <span class="icon-text">LinkedIn</span></a>
-                    <a href="https://www.facebook.com/vinh.luongthe.14811" class="footer-icon"><i class="uil uil-facebook"></i> <span class="icon-text">Facebook</span></a>
                 </div>
-            </section>
-        </footer>
-        <script src="app.js"></script>
-    </body>
+            </div>
+        </div>
+    </section>
+    <section class="about bg-dark py-5">
+        <div class="container">
+            <h2 class="text-white fw-medium w-auto mb-3">About me</h2>
+            <p class="text-white">Hello, I'm Vinh. I'm a full-stack website developer with 1 year of experience in this field. I have been mainly working with Python and Flask framework for 7 months, but I also have abilities to create websites using MERN stack.</p>
+            <div class="row py-2">
+                <div class="col-10 col-lg-4 mx-auto pb-3 pb-lg-0 pb-sm-3">
+                    <img src="./image/hero-image.png" alt="" class="bg-primary w-100 object-fit-cover" style="aspect-ratio: 5/6;">
+                </div>
+                <div class="col-12 col-lg-8 mx-auto">
+                    <h3 class="" style="color: #89CFF0">Web Developer & Software Engineer</h3>
+                    <p class="text-white" style="font-style: italic; font-size: 0.9em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="row">
+                        <ul class="list-unstyled col-12 col-lg-6 mb-0">
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Birthday:</span> 3 August 2005</li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Website:</span> <a href="lgthevinh.me" class="text-decoration-none text-white">lgthevinh.me</a></li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Phone:</span> +84 398 742 752</li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">City:</span> Hai Phong, Vietnam</li>
+                        </ul>
+                        <ul class="list-unstyled col-12 col-lg-6 mb-0">
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Age:</span> 18</li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Degree:</span> Unavailable</li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Email</span> <a href="mailto:everwellmax@gmail.com" class="text-decoration-none text-white">everwellmax@gmail.com</a></li>
+                            <li class="text-white py-2"><span class="fw-bold" style="color: #89CFF0">Freelance:</span> Available</li>
+                        </ul>
+                    </div>
+                    <p class="text-white mt-3">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills bg-dark">
+        <div class="bg-white w-100 py-5" style="border-top-left-radius: 5em; border-top-right-radius: 5em;">
+            <div class="container p-3">
+                <h2 class="text-dark fw-medium w-auto text-center">Skill</h2>
+                <p class="text-dark text-center space-none">This is my skills level which I have achieved in 2 years self-learning.</p>
+                <div class="row">
+                    <ul class="list-unstyled col-9 col-lg-6 mx-auto mb-0">
+                        <li class="py-2">
+                            <span class="d-block">HTML <i class="float-end" style="font-style: normal;">90%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <span class="d-block">CSS <i class="float-end" style="font-style: normal;">80%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <span class="d-block">Javascript <i class="float-end" style="font-style: normal;">65%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled col-9 col-lg-6 mx-auto mb-0">
+                        <li class="py-2">
+                            <span class="d-block">Bootstrap <i class="float-end" style="font-style: normal;">75%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;"  aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <span class="d-block">React <i class="float-end" style="font-style: normal;">65%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <span class="d-block">Python <i class="float-end" style="font-style: normal;">80%</i></span>
+                            <div class="progress" style="height: 1em;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
 </html>
