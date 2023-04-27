@@ -10,6 +10,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "transparent";
   }
 }
+
 function fadeUp(){
   var fadeUp = document.querySelectorAll(".fade-up");
   console.log(fadeUp);
@@ -21,4 +22,7 @@ function fadeUp(){
       fadeUp[i].classList.add("animation-fade-up")
     }
   }
+}
+function toggleNavbar(){
+  document.getElementById("navbar").classList.toggle("show");
 }

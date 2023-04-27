@@ -176,6 +176,9 @@ html, body{
     background-color: transparent;
     transition: 0.4s;
 }
+.navbar.show{
+    background-color: #485461 !important;
+}
 .nav-item.active{
     border-bottom: 0.2em solid white;
 }
