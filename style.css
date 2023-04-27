@@ -4,6 +4,10 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+*:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
@@ -158,6 +162,15 @@ html, body{
     border: 0.16em solid #0CAFFF;
     background: rgb(242, 249, 255);
 }
+.navbar{
+    position: fixed;
+    z-index: 9999;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.nav-item.active{
+    border-bottom: 0.2em solid white;
+}
 @media screen and (max-width: 992px){
     html, body{
         font-size: 15px;
@@ -168,7 +181,6 @@ html, body{
     .about h2{
         text-align: center;
         width: fit-content;
-        
     }
     .resume-section::before{
         left: -9px;
