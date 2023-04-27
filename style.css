@@ -18,8 +18,9 @@ html, body{
     margin: 0;
     padding: 0;
     font-size: 20px;
-    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
+    -ms-overflow-style: none;
 }
 .container{
     margin: 0 auto;
@@ -40,6 +41,15 @@ html, body{
 }
 .main-text-white{
     color: #F0F8FF;
+}
+.animation-fade-up{
+    animation: fadeup 0.8s;
+}
+.fade-up{
+    opacity: 0;
+}
+.fade-up.animation-fade-up{
+    opacity: 1;
 }
 /* Components styling */
 .hero{
@@ -118,10 +128,8 @@ html, body{
     width: 100%;
     height: auto;
 }
-.animation-fade-up{
-    animation: fadeup 0.8s;
-}
-.about h2{
+.about h2, .achievements h2{
+    width: fit-content;
     border-bottom: 0.1em solid aquamarine;
     font-size: 2em;
 }
@@ -194,6 +202,6 @@ html, body{
     }
     to   { 
         transform: translateY(0%);
-        opacity: 1; 
+        opacity: 1;
     }
 }
