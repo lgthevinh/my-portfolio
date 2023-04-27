@@ -17,7 +17,7 @@ function fadeUp(){
   for(let i = 0; i < fadeUp.length; i++){
     var windowHeight = window.innerHeight;
     var elementTop = fadeUp[i].getBoundingClientRect().top;
-    var elementVisible = 500;
+    var elementVisible = 100;
     if(elementTop < windowHeight - elementVisible){
       fadeUp[i].classList.add("animation-fade-up")
     }
