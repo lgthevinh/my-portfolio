@@ -30,8 +30,16 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.w-fit{
+    width: fit-content;
+}
 .text-dark{
     color: #485461 !important;
+}
+.text-blue{
+    font-size: 1.13em;
+    line-height: 21px;
+    color: #0CAFFF;
 }
 .main-text-gradient{
     background: -webkit-linear-gradient(135deg, hsla(206, 70%, 85%, 1) 0%, hsla(160, 100%, 82%, 1) 92%);
@@ -154,8 +162,6 @@ html, body{
 }
 .resume h4{
     font-size: 1.13em;
-    line-height: 21px;
-    color: #0CAFFF;
 }
 .resume-section{
     position: relative;
