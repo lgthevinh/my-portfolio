@@ -37,6 +37,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .text-dark{
     color: #485461 !important;
