@@ -65,6 +65,13 @@ html, body{
 .fade-up.animation-fade-up{
     opacity: 1;
 }
+.background-1{
+    background-color: #fee2f8;
+    background-image: linear-gradient(90deg, hsla(206, 70%, 85%, 0.7) 0%, hsla(161, 67%, 92%, 0.8) 74%);
+}
+.background-2{
+    background-color: #485461; background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
 /* Components styling */
 .hero{
     width: 100%;
@@ -149,12 +156,8 @@ html, body{
     border-bottom: 0.1em solid aquamarine;
     font-size: 2em;
 }
-.background-1{
-    background-color: #fee2f8;
-    background-image: linear-gradient(90deg, hsla(206, 70%, 85%, 0.7) 0%, hsla(161, 67%, 92%, 0.8) 74%);
-}
-.background-2{
-    background-color: #485461; background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+.about-image{
+    aspect-ratio: 11/1;
 }
 .skills h2, .resume h2{
     font-size: 2em;
@@ -232,6 +235,9 @@ html, body{
     }
     .resume-section::before{
         left: -9px;
+    }
+    .about-image{
+        aspect-ratio: 16/9;
     }
 }
 /* Animation */
