@@ -26,3 +26,39 @@ function fadeUp(){
 function toggleNavbar(){
   document.getElementById("navbar").classList.toggle("show");
 }
+
+function software(btnId){
+  document.getElementById("software-section").classList.remove("d-none");
+  document.getElementById("de-section").classList.add("d-none");
+  document.getElementById("iot-section").classList.add("d-none");
+
+  var btnGroup = document.querySelectorAll(".achievements-button");
+  for(let i = 0; i < btnGroup.length; i++){
+      btnGroup[i].classList.remove("active")
+  }
+  document.getElementById(btnId).classList.add("active");
+}
+
+function de(btnId){
+  document.getElementById("software-section").classList.add("d-none");
+  document.getElementById("de-section").classList.remove("d-none");
+  document.getElementById("iot-section").classList.add("d-none");
+
+  var btnGroup = document.querySelectorAll(".achievements-button");
+  for(let i = 0; i < btnGroup.length; i++){
+      btnGroup[i].classList.remove("active")
+  }
+  document.getElementById(btnId).classList.add("active");
+}
+
+function iot(btnId){
+  document.getElementById("software-section").classList.add("d-none");
+  document.getElementById("de-section").classList.add("d-none");
+  document.getElementById("iot-section").classList.remove("d-none");
+
+  var btnGroup = document.querySelectorAll(".achievements-button");
+  for(let i = 0; i < btnGroup.length; i++){
+      btnGroup[i].classList.remove("active")
+  }
+  document.getElementById(btnId).classList.add("active");
+}

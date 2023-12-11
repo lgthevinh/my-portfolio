@@ -285,7 +285,22 @@ body {
     border: 0.1em solid aquamarine !important;
     background-color:  aquamarine !important; 
     color: #485461 !important;
+}   
+
+#software-section[data-status="shown"], #de-section[data-status="shown"], #iot-section[data-status="shown"] {
+    opacity: 1;
+    -webkit-animation: fade 2s;
+    animation: fade 2s;
+   }
+   
+#software-section[data-status="shown"], #de-section[data-status="shown"], #iot-section[data-status="hidden"] {
+    opacity: 0;
+    -webkit-animation: fade 2s;
+    -webkit-animation-direction: reverse;
+    animation: fade 2s;
+    animation-direction: reverse;
 }
+
 @media screen and (max-width: 992px) {
 
     html,

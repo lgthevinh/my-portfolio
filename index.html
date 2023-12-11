@@ -36,7 +36,7 @@
                     <a class="nav-link text-white fw-medium" href="#resume">Resume</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link text-white fw-medium" href="#achievements">Achievements</a>
+                    <a class="nav-link text-white fw-medium" href="#achievements">Projects</a>
                   </li>
                 </ul>
               </div>
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="background-1 w-100">
-            <section class="resume pt-5 pb-3 fade-up" id="resume">
+            <section class="resume py-5 fade-up" id="resume">
                 <h2 class="text-dark fw-medium w-auto text-center pt-lg-5">Resume</h2>
                 <div class="container pb-3 row">
                     <p class="text-dark text-center space-none lh-lg mb-3">This resume will summary my education level and my working experience of what I have done.</p>
@@ -152,11 +152,11 @@
                     <h2 class="text-white fw-medium text-center mx-auto">My works</h2>
                     <p class="text-white fw-medium text-center mt-3">This is the showcase of my projects and what I'm capable of, included the techstacks I'm using and the projects I have done.</p>
                     <div class="container w-100 d-flex flex-row justify-content-center align-content-between">
-                        <button type="button" class="btn fw-medium achievements-button" id="" onclick="">Software development</button>
-                        <button type="button" class="btn fw-medium achievements-button" id="" onclick="">Data engineer</button>
-                        <button type="button" class="btn fw-medium achievements-button" id="" onclick="">IoT and Robotics</button>
+                        <button type="button" class="btn fw-medium achievements-button active" id="software" onclick="software(this.id)">Software development</button>
+                        <button type="button" class="btn fw-medium achievements-button" id="de" onclick="de(this.id)">Data engineer</button>
+                        <button type="button" class="btn fw-medium achievements-button" id="iot" onclick="iot(this.id)">IoT and Robotics</button>
                     </div>
-                    <div class="container row p-3" id="">
+                    <div class="container row p-3" id="software-section">
                         <div class="col-4 col-md-6 col-12 ratio-16x9 p-1 position-relative">
                             <div class="project-overlay text-center rounded-3" style="background-color: #DAD4E5;">
                                 <a href="https://github.com/Techco-org/ancor-intelligent" class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center"><i class="bi bi-github fs-1 hover-up"></i></a>
@@ -177,9 +177,38 @@
                         </div>
                         <div class="col-4 col-md-6 col-12 ratio-16x9 p-1 position-relative">
                             <div class="project-overlay text-center rounded-3" style="background-color: aquamarine;">
-                                <a href="https://github.com/Techco-org/ancor-intelligent" class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center"><i class="bi bi-github fs-1 hover-up"></i></a>
+                                <div class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center">
+                                    <a href="https://github.com/lgthevinh/my-portfolio" class="text-dark text-size-lg text-decoration-none flex-center">
+                                        <i class="bi bi-github fs-1 hover-up mx-3"></i>
+                                    </a>
+                                    <a href="https://lgthevinh.me" class="text-dark text-size-lg text-decoration-none flex-center">
+                                        <i class="bi bi-box-arrow-up-right fs-1 hover-up mx-3"></i>
+                                    </a>
+                                </div>
                             </div>
                             <img src="./image/project-5.png" alt="" class="w-100 h-100 object-fit-cover rounded-3">
+                        </div>
+                    </div>
+                    <div class="container row p-3 flex-center d-none" id="de-section">
+                        <div class="col-4 col-md-6 col-12 ratio-16x9 p-1 position-relative">
+                            <div class="project-overlay text-center rounded-3" style="background-color: #0cafff;">
+                                <a href="https://github.com/lgthevinh/ev-stock-etl-pipeline" class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center"><i class="bi bi-github fs-1 hover-up text-white"></i></a>
+                            </div>
+                            <img src="./image/project-2.png" alt="" class="w-100 h-100 object-fit-cover rounded-3">
+                        </div>
+                    </div>
+                    <div class="container row p-3 flex-center d-none" id="iot-section">
+                        <div class="col-4 col-md-6 col-12 ratio-16x9 p-1 position-relative">
+                            <div class="project-overlay text-center rounded-3" style="background-color: #01979B;">
+                                <a href="https://github.com/tpopensteam/Makerbot_Linefollowing" class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center"><i class="bi bi-github fs-1 hover-up text-white"></i></a>
+                            </div>
+                            <img src="./image/project-6.png" alt="" class="w-100 h-100 object-fit-cover rounded-3">
+                        </div>
+                        <div class="col-4 col-md-6 col-12 ratio-16x9 p-1 position-relative">
+                            <div class="project-overlay text-center rounded-3" style="background-color: #01979B;">
+                                <a href="https://github.com/lgthevinh/self-balencing-Makerbot" class="h-100 w-100 text-dark text-size-lg text-decoration-none flex-center"><i class="bi bi-github fs-1 hover-up text-white"></i></a>
+                            </div>
+                            <img src="./image/project-7.png" alt="" class="w-100 h-100 object-fit-cover rounded-3">
                         </div>
                     </div>
                 </section>
