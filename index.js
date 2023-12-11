@@ -62,4 +62,3 @@ function iot(btnId){
   }
   document.getElementById(btnId).classList.add("active");
 }
-
