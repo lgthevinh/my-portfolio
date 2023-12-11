@@ -1,20 +1,27 @@
-*{
-    font-family: 'Raleway','Open Sans' sans-serif;
+* {
+    font-family: 'Raleway', 'Open Sans' sans-serif;
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
+
 *:focus {
     outline: 0 !important;
     box-shadow: none !important;
 }
-p{
+
+p {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
     font-size: 600;
     line-height: 1.7em;
 }
-html, body{
+
+html,
+body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -23,95 +30,117 @@ html, body{
     overflow-x: hidden;
     -ms-overflow-style: none;
 }
-.container{
+
+.container {
     margin: 0 auto;
 }
-.space-none{
+
+.space-none {
     margin: 0;
     padding: 0;
 }
-.w-fit{
+
+.w-fit {
     width: fit-content;
 }
-.flex-center{
+
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.text-dark{
+
+.text-dark {
     color: #485461 !important;
 }
-.text-blue{
+
+.text-blue {
     font-size: 1.13em;
     line-height: 21px;
     color: #0CAFFF;
 }
-.main-text-gradient{
+
+.main-text-gradient {
     background: -webkit-linear-gradient(135deg, hsla(206, 70%, 85%, 1) 0%, hsla(160, 100%, 82%, 1) 92%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
 }
-.main-text-white{
+
+.main-text-white {
     color: #F0F8FF;
 }
-.animation-fade-up{
+
+.animation-fade-up {
     animation: fadeup 0.8s;
 }
-.fade-up{
+
+.fade-up {
     opacity: 0;
 }
-.fade-up.animation-fade-up{
+
+.fade-up.animation-fade-up {
     opacity: 1;
 }
-.background-1{
+
+.background-1 {
     background-color: #fee2f8;
     background-image: linear-gradient(90deg, hsla(206, 70%, 85%, 0.7) 0%, hsla(161, 67%, 92%, 0.8) 74%);
 }
-.background-2{
-    background-color: #485461; background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+
+.background-2 {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
+
 /* Components styling */
-.hero{
+.hero {
     width: 100%;
     height: 100vh;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 2.6em;
     font-weight: 800;
     width: fit-content;
     line-height: 1.3;
     margin-bottom: 0;
 }
-.hero p{
+
+.hero p {
     font-size: 1.3em;
     color: #F0F8FF;
     font-weight: 500;
     width: fit-content;
 }
-.hero h2{
+
+.hero h2 {
     font-size: 1.8em;
     width: fit-content;
     color: #F0F8FF;
     font-weight: 600;
 }
-.hero i{
+
+.hero i {
     font-size: 1.3em;
     width: fit-content;
     color: #F0F8FF;
     transition: 0.2s;
 }
-.hero i:hover{
+
+.hero i:hover {
     color: #89CFF0;
 }
-.hero_graphics{
+
+.hero_graphics {
     position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
 }
-.hero_graphic-1{
+
+.hero_graphic-1 {
     position: absolute;
     top: -5em;
     right: -20%;
@@ -121,7 +150,8 @@ html, body{
     transform: rotate(-45deg);
     background-image: linear-gradient(90deg, hsla(206, 70%, 85%, 0.3) 0%, hsla(160, 100%, 82%, 1) 92%);
 }
-.hero_graphic-2{
+
+.hero_graphic-2 {
     position: absolute;
     top: -5em;
     right: 3em;
@@ -129,10 +159,11 @@ html, body{
     width: 10em;
     height: 10em;
     border-radius: 100px;
-    background-image: linear-gradient(-90deg, rgba(49,207,171,0.2) 0%, #50E3FDCD 100%);
+    background-image: linear-gradient(-90deg, rgba(49, 207, 171, 0.2) 0%, #50E3FDCD 100%);
     mix-blend-mode: color-dodge;
 }
-.hero_graphic-3{
+
+.hero_graphic-3 {
     position: absolute;
     top: 0;
     left: 0;
@@ -141,42 +172,54 @@ html, body{
     border: 0.4em solid #F0F8FF;
     border-image: linear-gradient(135deg, hsla(206, 70%, 85%, 1) 0%, hsla(160, 100%, 82%, 1) 92%) 1;
 }
-.hero-image{
+
+.hero-image {
     aspect-ratio: 1/1;
 }
-.hero_image_graphic{
+
+.hero_image_graphic {
     position: absolute;
     bottom: 0em;
     left: 0;
     width: 100%;
     height: auto;
 }
-.about h2, .achievements h2{
+
+.about h2,
+.achievements h2 {
     width: fit-content;
     border-bottom: 0.1em solid aquamarine;
     font-size: 2em;
 }
-.about-image{
+
+.about-image {
     aspect-ratio: 11/1;
 }
-.skills h2, .resume h2{
+
+.skills h2,
+.resume h2 {
     font-size: 2em;
 }
-.skills span{
+
+.skills span {
     font-size: 1.2em;
 }
-.resume h3{
+
+.resume h3 {
     font-size: 1.5em;
 }
-.resume h4{
+
+.resume h4 {
     font-size: 1.13em;
 }
-.resume-section{
+
+.resume-section {
     position: relative;
     padding-left: 1em;
     border-left: 0.16em solid #0CAFFF;
 }
-.resume-section::before{
+
+.resume-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -187,19 +230,23 @@ html, body{
     border: 0.16em solid #0CAFFF;
     background: rgb(242, 249, 255);
 }
-.navbar{
+
+.navbar {
     position: fixed;
     z-index: 9999;
     background-color: transparent;
     transition: 0.4s;
 }
-.navbar.show{
+
+.navbar.show {
     background-color: #485461 !important;
 }
-.nav-item.active{
+
+.nav-item.active {
     border-bottom: 0.2em solid white;
 }
-.project-overlay{
+
+.project-overlay {
     display: flex;
     position: absolute;
     align-items: center;
@@ -211,42 +258,69 @@ html, body{
     opacity: 0%;
     transition: 0.5s;
 }
-.project-overlay p{
+
+.project-overlay p {
     text-decoration: none;
     opacity: 100%;
     text-align: center;
     width: 100%;
     transition: 0.5s;
 }
-.project-overlay:hover{
+
+.project-overlay:hover {
     display: flex;
     opacity: 100%;
 }
-@media screen and (max-width: 992px){
-    html, body{
+
+.achievements-button {
+    border: 0.1em solid aquamarine;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    color: aquamarine;
+    transition: 0.2s;
+    margin: 0 0.5em;
+}
+
+.achievements-button:hover, .achievements-button:active, .achievements-button.active {
+    border: 0.1em solid aquamarine !important;
+    background-color:  aquamarine !important; 
+    color: #485461 !important;
+}
+@media screen and (max-width: 992px) {
+
+    html,
+    body {
         font-size: 15px;
     }
-    .hero h1, .hero h2, .hero p{
+
+    .hero h1,
+    .hero h2,
+    .hero p {
         margin: 0 auto;
     }
-    .about h2{
+
+    .about h2 {
         text-align: center;
         width: fit-content;
     }
-    .resume-section::before{
+
+    .resume-section::before {
         left: -9px;
     }
-    .about-image{
+
+    .about-image {
         aspect-ratio: 16/9;
     }
 }
+
 /* Animation */
 @keyframes fadeup {
-    from { 
+    from {
         transform: translateY(100px);
         opacity: 0;
     }
-    to   { 
+
+    to {
         transform: translateY(0);
         opacity: 1;
     }

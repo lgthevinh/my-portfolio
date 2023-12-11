@@ -3,12 +3,13 @@
   --global-color-white: #f0f8ff;
   --global-color-blue: #0cafff;
   --global-color-blue-light: #89CFF0;
-  --global-color-light: #f8f8f8;
+  --global-color-light: #F0F8FF;
   --global-color-lighter: #f0f0f0;
   --global-color-lightest: #f8f8f8;
   --global-color-black: #000000;
   --global-color-gray: #808080;
   --global-color-aqua: aquamarine;
+  --global-color-green: #1A9640;
 
   --global-text-sm: 1em;
   --global-text-md: 1.4em;
